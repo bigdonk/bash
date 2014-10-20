@@ -60,9 +60,9 @@ read RULE
 echo  
 if [ -d "$ERESSEA/game-$GAME" ]; then
   echo  
-  echo This directory already exists
+  echo game-$GAME already exists
   echo  
-  echo Choose another directory
+  echo Choose another game
   echo  
 else
   CHECK2=1
