@@ -68,7 +68,7 @@ else
   CHECK2=1
 fi
 done
-s/setup -g $GAME -n -r $RULE
+ERESSEA=$HOME/$DIRECTORY s/setup -g $GAME -n -r $RULE
 echo game-$GAME with ruleset $RULE is now installed and ready to use
 echo  
 echo You must create a data file before running a turn
